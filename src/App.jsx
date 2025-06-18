@@ -1,4 +1,3 @@
-// App.js (updated)
 import React, { useState, useEffect } from 'react';
 import './App.css';
 
@@ -41,12 +40,14 @@ function App() {
         </nav>
 
         <div className="content">
+            {/*home section*/}
             <section id="home" className="section">
                 <h1>Valora</h1>
                 <h3>A financial analyst AI chatbot powered by
                     TCS Spring Interns</h3>
             </section>
 
+            {/*about section*/}
             <section id="about" className="section about-section">
                 <h1 className="about-title">What are we?</h1>
                 <h3 className="about-subtitle">About Information</h3>
@@ -80,11 +81,33 @@ function App() {
                 </div>
             </section>
 
+            {/*chatbot section*/}
+            <section id="chatbot" className="section chatbot-section">
+                <h1 className="chatbot-title">Ready to get started?</h1>
+                <p className="chatbot-subtitle">
+                    Give your data a voice, narrate the numbers,<br />
+                    and drive strategic action
+                </p>
 
-            <section id="chatbot" className="section">
-                <h1>Chatbot Section</h1>
-                <p>Chat with our assistant here.</p>
+                <div className="chatbot-card">
+                    <div className="chatbot-card-header">
+                        <span className="dot">●</span>
+                        <strong>Valora</strong>
+                        <button className="close-btn">×</button>
+                    </div>
+                    <p className="chatbot-card-text">
+                        Your NYSE stock analysis report (Q1–Q3 2025) is ready.
+                    </p>
+                </div>
+
+                <button className="chatbot-button">Talk to Valora</button>
+
+                <footer className="chatbot-footer">
+                    <span>Look Under the Hood</span>
+                    <span>About TCS</span>
+                </footer>
             </section>
+
         </div>
     </div>
 )
