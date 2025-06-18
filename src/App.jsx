@@ -43,13 +43,43 @@ function App() {
         <div className="content">
             <section id="home" className="section">
                 <h1>Valora</h1>
-                <p>Welcome to the landing page.</p>
+                <h3>A financial analyst AI chatbot powered by
+                    TCS Spring Interns</h3>
             </section>
 
-            <section id="about" className="section">
-                <h1>About Section</h1>
-                <p>Learn more about us here.</p>
+            <section id="about" className="section about-section">
+                <h1 className="about-title">What are we?</h1>
+                <h3 className="about-subtitle">About Information</h3>
+                <p className="about-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.
+                </p>
+
+                <h3 className="our-services">Our Services</h3>
+
+                <div className="services-container">
+                    <div className="service-box">
+                        <h4>Company Profile Information</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                        <button className="profile-btn">
+                            &#10140; More Company Profiles
+                        </button>
+                    </div>
+
+                    <div className="service-box">
+                        <h4>Chatbot Information</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit
+                            amet, consectetur adipiscing elit.
+                        </p>
+                    </div>
+                </div>
             </section>
+
 
             <section id="chatbot" className="section">
                 <h1>Chatbot Section</h1>

@@ -44,7 +44,7 @@ html {
 
 .navbar a {
   color: #fff;
-  font-weight: 80%;
+  font-weight: 80;
   text-decoration: none;
   padding: 0.5rem 1rem;
   border-radius: 4px;
@@ -73,5 +73,98 @@ html {
 }
 
 #home { background: #4C4C8C; }
-#about { background: #e0e7ff; }
+
+#home h1 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 900;
+  font-family: Paytone One, sans-serif;
+}
+
+#home h3 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 20;
+  font-family: Poppins, sans-serif;
+  padding-top: 10px;
+}
+
+/* about section*/
+.about-section {
+  background: #5D528E;
+  color: #fff;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.about-title {
+  font-family: 'Paytone One', sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+
+.about-subtitle {
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.about-description {
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  font-size: 0.95rem;
+}
+
+.our-services {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.services-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: stretch;
+}
+
+@media (min-width: 768px) {
+  .services-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.service-box {
+  background: transparent;
+  border-radius: 8px;
+  padding: 1rem;
+  max-width: 350px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.service-box h4 {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.profile-btn {
+  margin-top: 1rem;
+  background-color: #ded5e8;
+  color: #5D528E;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  /*border: 1px #000 solid;*/
+  border-radius: 9999px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  /*transition: 0.3s ease;*/
+}
+
+.profile-btn:hover {
+  background-color: #c9bed6;
+}
+
+/*chatbot section*/
 #chatbot { background: #d0eaff; }
