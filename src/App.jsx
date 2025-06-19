@@ -23,7 +23,36 @@ function LandingPage() {
                 </section>
 
                 <section id="about" className="section about-section">
-                    {/* ... same as before ... */}
+                    <h1 className="about-title">What are we?</h1>
+                    <h3 className="about-subtitle">About Information</h3>
+                    <p className="about-description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua.
+                    </p>
+
+                    <h3 className="our-services">Our Services</h3>
+
+                    <div className="services-container">
+                        <div className="service-box">
+                            <h4>Company Profile Information</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua.
+                            </p>
+                            <button className="profile-btn">
+                                &#10140; More Company Profiles
+                            </button>
+                        </div>
+
+                        <div className="service-box">
+                            <h4>Chatbot Information</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit
+                                amet, consectetur adipiscing elit.
+                            </p>
+                        </div>
+                    </div>
                 </section>
 
                 <section id="chatbot" className="section chatbot-section">
