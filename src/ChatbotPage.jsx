@@ -27,7 +27,8 @@ function ChatbotPage() {
 
     return (
         <div className="chatbot-page">
-            {/* Sidebar */}
+
+            {/* sidebar */}
             <aside className={`sidebar ${expanded ? 'expanded' : ''}`}>
                 <div className="sidebar-top">
                     <button onClick={() => setExpanded(!expanded)}>
@@ -44,7 +45,7 @@ function ChatbotPage() {
                 </div>
             </aside>
 
-            {/* Main content */}
+            {/* main content */}
             <main className="main-content">
                 <header className="chatbot-header">
                     <h2 className="valora-link" onClick={() => navigate('/')}>
@@ -56,7 +57,7 @@ function ChatbotPage() {
                 <section className="chatbot-body">
                     {!hasStarted && <h1>Hello, User</h1>}
 
-                    {/* Show chat display if started */}
+                    {/* show chat display if started */}
                     {hasStarted && (
                         <div className="chat-display">
                             {messages.map((msg, index) => (
@@ -70,7 +71,7 @@ function ChatbotPage() {
                         </div>
                     )}
 
-                    {/* Input box */}
+                    {/* input box */}
                     <div className="input-box">
                         <input
                             type="text"

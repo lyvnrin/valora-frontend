@@ -73,7 +73,6 @@ function LandingPage() {
                         </p>
                     </div>
 
-                    {/* 🔗 Navigate to separate page on button click */}
                     <button className="chatbot-button" onClick={() => navigate('/chatbot')}>
                         Talk to Valora
                     </button>
